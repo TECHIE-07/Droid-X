@@ -1,6 +1,6 @@
-#Warning
+# Warning
 Use it at your own risk !
-#Installation
+# Installation
 Usage:
 
 1) git clone https://github.com/TECHIE008/Droid-X
